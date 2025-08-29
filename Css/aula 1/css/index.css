@@ -53,3 +53,14 @@ img{
     justify-content: center;
     
 }
+
+.borda{
+    border-color: crimson;
+}
+
+.borda2{
+    transform: rotate(90deg);
+    position: absolute;
+    width: 100%;
+    right: 480px;   
+ }
