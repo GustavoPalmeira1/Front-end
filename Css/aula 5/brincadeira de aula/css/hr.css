@@ -1,0 +1,35 @@
+.r{
+    border-width: 10px;
+    animation-name: hr;
+    animation-duration: 5s;
+    position: relative;
+}
+
+@keyframes hr{
+    from{
+        transform: rotate(0deg);
+        border-color: white;
+    }
+    to{
+        transform: rotate(360deg);
+        border-color: black;
+    }
+}
+
+.b{
+    border-width: 10px;
+    animation-name: b;
+    animation-duration: 5s;
+    position: relative;
+}
+
+@keyframes b {
+    from{
+        transform: rotate(0deg);
+        border-color: red;
+    }
+    to{
+        transform: rotate(360deg);
+        border-color: blue;
+    }
+}

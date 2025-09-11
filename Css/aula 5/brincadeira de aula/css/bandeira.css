@@ -1,0 +1,58 @@
+.azul{
+    animation-name:azul ;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    height: 100px;
+    animation-fill-mode: forwards;
+}
+
+.verde{
+    animation-name:verde ;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    height: 100px;
+    animation-fill-mode: forwards;
+}
+
+.amarelo{
+    animation-name:amarelo ;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    height: 100px;
+    animation-fill-mode: forwards;    
+}
+
+@keyframes azul{
+    from{
+        width: 0px;
+        background-color: white;
+    }
+    to{
+        width: 100%;
+        background-color: blue;
+        
+    }
+
+}
+@keyframes verde{
+    from{
+        width: 0px;
+        background-color: black;
+    }
+    to{
+        width: 100%;
+        background-color: green;
+    }
+
+}
+@keyframes amarelo{
+    from{
+        width: 0px;
+        background-color: grey;
+    }
+    to{
+        width: 100%;
+        background-color: yellow;
+    }
+
+}
