@@ -1,0 +1,20 @@
+caption{
+    background-color: darkblue;
+    color: white;
+    
+}
+thead{
+    background-color: rgb(111, 177, 199);
+    
+}
+table{
+    background-color: lightblue;
+}
+
+.numero{
+    background-color: lightgrey;
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+}
+

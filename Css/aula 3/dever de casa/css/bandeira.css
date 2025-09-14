@@ -1,0 +1,35 @@
+div{
+    
+    width: 2000px;
+    height: 100px;
+}
+
+
+#vermelho{
+    background-color: red;
+    width: 100%;
+}
+#laranja{
+    background-color: orange;
+    width: 80%;
+}
+#azul{
+    background-color: blue;
+    width: 20%;
+}
+#verde{
+    background-color: green;
+    width: 40%;
+}
+#anil{
+    background-color: #4B0082;;
+    width: 10%;
+}
+#violeta{
+    background-color: violet;
+    width: 5%;
+}
+#amarelo{
+    background-color: yellow;
+    width: 60%;
+}
