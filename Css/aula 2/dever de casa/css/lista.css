@@ -1,0 +1,16 @@
+dt::first-letter{
+    color: white;
+    font-size: 50px;
+}
+
+dl dt{
+    background-color: blue;
+    color: red;
+}
+
+dl dd{
+    background-color: green;
+    color: yellow;
+}
+
+
