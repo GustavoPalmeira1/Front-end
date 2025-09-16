@@ -1,0 +1,15 @@
+div{
+    background-color: orange;
+    
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+span{
+    
+    display: flex;
+    
+}
+
+

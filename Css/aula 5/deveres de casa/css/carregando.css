@@ -1,0 +1,23 @@
+div{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top: 5px solid red;
+    margin: auto;
+    right: 1000px;
+    top: 400px;
+    height: 200px;
+    width: 40px;
+    position: absolute;
+    animation-name:giro ;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes giro{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
