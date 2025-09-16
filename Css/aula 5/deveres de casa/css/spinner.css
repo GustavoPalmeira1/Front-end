@@ -1,0 +1,15 @@
+img{
+    animation-name: rotacionar;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 10;
+}
+
+@keyframes rotacionar{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(1440deg);
+    }
+}
