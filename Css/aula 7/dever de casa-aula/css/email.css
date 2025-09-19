@@ -1,0 +1,19 @@
+.computador{
+    display: none;
+}
+
+@media (min-width: 720px){
+    .computador{
+        display: block;
+    }
+}
+
+.celular{
+    display: none;
+}
+
+@media (max-width: 480){
+    .celular{
+        display: block;
+    }
+}

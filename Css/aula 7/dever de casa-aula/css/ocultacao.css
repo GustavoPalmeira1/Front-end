@@ -1,0 +1,28 @@
+/* Esse aparece SEMPRE */
+.container {
+    color: blue;
+    background-color: green;
+    display: block; /* ou flex, depende do layout */
+}
+
+/* Esse aparece só no computador */
+.containerComputador {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .containerComputador {
+        display: flex;
+    }
+}
+
+/* Esse aparece só no celular */
+.containerCelular {
+    display: none;
+}
+
+@media (max-width: 450px) {
+    .containerCelular {
+        display: flex;
+    }
+}
