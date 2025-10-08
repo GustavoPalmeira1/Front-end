@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de danos</title>
+</head>
+<body>
+    <p>Qual o seu nome?</p>
+    <button onclick="resposta1()">Clique aqui para verificar o tipo da resposta</button>
+    
+    <p>Qual a sua idade?</p>
+    <button onclick="resposta2()">Clique aqui para verificar o tipo da resposta</button>
+    
+    <script>
+        function resposta1(){
+            var nome = prompt("escreva o seu nome");
+
+            alert( "tipo de resposta: " +typeof nome + " \n respota do usuario: " + nome + " \n nao existe operação possivel");
+        }
+        function resposta2(){
+            var idade = prompt("escreva a sua idade");
+            
+            alert( "tipo de resposta: " +typeof idade + " \n respota do usuario: " + idade + " \n existe opreações possiveis");
+        }
+    </script>
+</body>
+</html>
